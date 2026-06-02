@@ -13,8 +13,8 @@ title                    : "Shuhao Li"
 title_separator          : "|"
 name                     : &name "Shuhao Li"
 description              : &description "Personal website of Shuhao Li, PhD student in Computer Science at ETH Zurich."
-url                      : https://yanksi.github.io
-baseurl                  : "/-" # GitHub Pages serves project repos under /<repo-name>; remove this if you rename the repo to yanksi.github.io
+url                      : "https://yanksi.li" # custom apex domain (https). Served at the domain root, so baseurl is empty.
+baseurl                  : "" # apex domain serves at "/"; the github.io/<repo>/ URL 301-redirects here once the custom domain is set
 repository               : "yanksi/-"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
